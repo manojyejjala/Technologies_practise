@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="custom-logo-plugin-2.20.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/allure-2.20.1/plugins/custom-logo-plugin/custom-logo-plugin-2.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="playwright_practice">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace16.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace18.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace14.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace12.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace13.zip!/" />
+      <root url="jar://$PROJECT_DIR$/playwright_practice/trace10.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
