@@ -1,0 +1,16 @@
+go to https://docs.qameta.io/allure/
+browser to 2.1.4 manual installation- click(maven central)
+select the latest version (2.20.1)
+open and find .zip file
+click and download (allure-commandline-2.20.1.zip )
+unpack the zip folder to the path where your practice folder is-(D:\tech_practice)
+open allure 2.20.1 folder and navigate to the bin and copy the path- (D:\tech_practice\allure-2.20.1\bin)
+no go to system settings in windows
+search for evironmental variables- click on "path" of user variables and select edit option
+now add the bin path to the user variables path. and click ok.
+click ok on the environmental variables.
+browse to the playwright test cases folder on vscode and activate your playwright venv
+now type command on terminal (pip install allure-pytest)
+select your <testcase> and in terminal (pytest --alluredir="<reportname>" <testcase>)
+-HIT enter
+you can see the folder with your <reportname> in the <testcase> folder.

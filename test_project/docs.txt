@@ -1,0 +1,8 @@
+seleted website- http://tutorialsninja.com/demo/
+activate the environment 
+playwright codegen (url)
+hover explore the website and give inputs when required.
+copy code from playwright codegen
+paste the code in the test case and edit the required changes.
+traceviewer get screenshots
+
