@@ -1,0 +1,20 @@
+from playwright.sync_api import sync_playwright, expect, Playwright
+
+def test_run(playwright):
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto("https://www.adidas.co.in/")
+    page.get_by_role("link", name="log in").click()
+    page.get_by_role("textbox", name="Email").fill("test.mail199302@gmail.com")
+    page.get_by_role("textbox", name="Password").fill("Test_mail93")
+    page.get_by_role("checkbox", name="Keep me logged in. More info").click()
+    page.get_by_role("button", name="Log in").click()
+    page.locator("//a[@role='menu'][normalize-space()='MEN']").click()
+    page.locator("//section[@data-testid='teaser-block-wrapper']//section[1]//a[1]").click()
+    page.get_by_role("img", name="Men Basketball Blue Trae HC Hoodie").click()
+    page.get_by_role("button", name="2XL").click()
+    page.get_by_role("button", name="ADD TO BAG").click()
+    page.get_by_role("link", name="log in").click()
+    page.get_by_role("tab", name="ACCOUNT").click()
+    page.get_by_role("link", name="Log out").click()
